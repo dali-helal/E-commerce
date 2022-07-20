@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background:#F4F4F4;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    padding-inline: 3rem;
+}
+.site-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    color: #119DFF;
+    margin-left: 30px;
+}
+.site-name a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #119DFF;
+}
+.site-name h3{
+    font-size:20px ;
+}
+.logo {
+    height: 60px ;
+    width : 60px ;
+    padding: 10px ;
+}
+nav .search{
+    box-shadow: 0px 0px 3px ;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    padding: 20px 5px;
+    background: #FFFFFF;
+}
+
+nav .search input{
+    border: 0px ;
+    font-size: 15px ;
+    font-weight: 400;
+    outline: none;
+    background: #FFFFFF;
+    width: 250px;
+    margin-right: 20px;
+}
+nav .search .icon-search{
+    background :white ; 
+    margin-left: 20px;
+    color: #989898;  
+    margin-right: 10px;
+}
+::placeholder{
+    color: #A6A6A6;
+}
+nav .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+.icon * {
+ margin: 5px;
+}
+.icons{
+  color: #999999;
+}
+.div-shop{
+    display: flex;
+    position: relative;
+}
+.div-shop div{
+    background: #119DFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    font-size: 11px;
+    color: white;
+    position : absolute;
+    right: -10px;
+    top:20% 
+}
+.img-home{
+    height: 600px;
+    width: 600px;
+    margin-right: 50px;
+    background: none;
+ 
+}
+.home-watch {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ height: 500px;
+ padding-left: 60px;
+}
+.section-home >*{
+    margin : 25px;
+}
+.section-home h2{
+    font-weight: 900;
+    font-size: 40px;
+    color:  #119DFF;
+}
+.section-home button{
+ padding: 10px 20px;
+ background: #119DFF;
+ color:white;
+ border: none;
+ border-radius: 10px;
+ transition: 0.3s ease;
+}
+.section-home button:hover{
+    transform: scale(1.05);
+}
+.section-home h4{
+    color:#A1A1A1;
+    line-height: 35px;
+    font-weight: 400;
+}

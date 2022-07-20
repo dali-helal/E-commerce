@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background:#F4F4F4;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color:  #F4F4F4;
+}
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ box-shadow: 0px 0px 3px ;
+ height: 85%;
+ width: 50%;
+ background: white;
+}
+.container>*{
+    width: 80%;
+    background: white;
+    margin: 10px;
+}
+form .email ,form .password {
+    display: flex;
+    align-items: center;
+    border-left: 5px solid #119DFF;
+    padding: 10px ;
+    margin-bottom: 10px;
+}
+
+.email input ,.password input{
+    padding:  5px 20px ;
+    border: 0px;
+    outline: none;
+    width: 80%;
+    font-size: 15px;
+    font-weight: 600;
+    color: #919191;
+    background: none;
+    
+}
+form{
+ display: flex;
+ flex-direction: column;
+}
+form .signin-btn{
+    padding: 15px 0px  ;
+    font-size: 15px ;
+    font-weight: 600;
+    background: #119DFF;
+    border: none;
+    color: white;
+}
+form h4{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 10px ;
+    margin: 5px ;
+    color:#777777;
+    width: 93%;
+    background: none;
+
+}
+form h4,form button:hover{
+    cursor: pointer;
+}
+.signup-form h6{
+    padding: 4px 10px ;
+    font-size: 15px ;
+    color: red;
+    width: 90%;
+    background: none;
+}
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up > div{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: none;
+}
+.sign-up >*{
+    padding: 5px 0px ;
+    font-size: 15px;
+    font-weight: 600;
+}
+.icon{
+    color:#777777;
+}
+.sign-up h5{
+    color: #119DFF;
+    background: none;
+    margin-left: 7px; 
+}
+.sign-up a{
+    text-decoration: none;
+    background: none;
+}
+.sign-up h5:hover{
+    cursor: pointer;
+}
+.sign-up h4{
+  color: #777777;
+  background: none;
+}
+
+.sign-with{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:5px;
+    height: 100px;
+   
+}
+.sign-up >*{
+    padding: 5px ;
+    margin: 5px ;
+}
+#sign-with {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background: none;
+}
+
+#sign-with h6{
+    font-size: 15px;
+    font-weight: 800;
+    color: #777777;
+    background: none;
+}
+.sign-icons{
+    height: 100px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px ;
+    background: none;
+}
+.icons-Fa{
+    color:#405498 ;
+    background: none;
+}
+.icons-ti{
+    color: white;
+    background: none;
+}
+.icons-ge{
+    color :white;
+    background: none;
+}
+.icons-Fa,.icons-ge,.icons-ti:hover{
+    cursor: pointer;
+}
+hr {
+    width: 8%;
+    height: 5px;
+    margin: 10px;
+    background: #777777;
+    border: 1px solid #777777;
+    border-radius: 50px;
+}
+.icon-gemail{
+    background-color: #E74639;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 50%;
+}
+.icon-twitter{
+    background: #2AA9E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 50%;
+}

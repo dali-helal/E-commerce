@@ -1,0 +1,9 @@
+.filter-container{
+    width: 30%;
+    background: blue;
+    padding: 10px;
+}
+.filter-container h6 {
+    padding: 10px ;
+    font-size: 15px;
+}
